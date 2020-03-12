@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean id="user" class="Entity.User">
+        <property name="name" value="SunTianchen"></property>
+        <property name="city" ref="city"></property>
+        <property name="sex" ref="Sex"></property>
+    </bean>
+    <bean id="city" class="Entity.City">
+        <property name="name" value="Xian"></property>
+    </bean>
+    <bean id="Sex" class="Entity.Sex">
+        <property name="sex" value="20"></property>
+    </bean>
+
+</beans>
